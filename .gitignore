@@ -1,0 +1,6 @@
+node_modules/
+credentials.json
+.wwebjs_auth/
+.wwebjs_cache/
+*.log
+.env

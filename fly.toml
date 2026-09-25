@@ -1,0 +1,13 @@
+# fly.toml app configuration file generated for bot-placar-wpp
+
+app = 'bot-placar-wpp'
+primary_region = 'gru'
+
+[mounts]
+  source = 'bot_data'
+  destination = '/data'
+
+[[vm]]
+  cpu_kind = 'shared'
+  cpus = 1
+  memory_mb = 1024
